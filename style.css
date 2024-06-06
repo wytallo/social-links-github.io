@@ -1,0 +1,125 @@
+@charset "UTF_8";
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    width: 350px;
+    height: 560px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 95px;
+    margin: 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px, 2px, 0px rgb(0, 0, 0);
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    text-shadow: 2px, 2px, 0px rgb(0, 0, 0);
+}
+
+.rede-social a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-shadow: 2px, 2px, 0px rgb(0, 0, 0);
+}
+
+.github {
+    background-color: hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-flex;
+    margin: 10px;
+    padding-inline: 120px;
+    border-radius: 10px;
+}
+
+.frontend {
+    background-color: hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-flex;
+    margin: 10px;
+    padding-inline: 89px;
+    border-radius: 10px;
+}
+
+.linkedin {
+    background-color: hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-flex;
+    margin: 10px;
+    padding-inline: 116px;
+    border-radius: 10px;
+}
+
+.twitter {
+    background-color: hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-flex;
+    margin: 10px;
+    padding-inline: 120px;
+    border-radius: 10px;
+}
+
+.instagram {
+    background-color: hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-flex;
+    margin: 10px;
+    padding-inline: 111px;
+    border-radius: 10px;
+}
+
+.attribution {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
