@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,12 +7,10 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
   <link rel="stylesheet" href="style.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Social links profile</title>
 
@@ -21,24 +19,25 @@
 
 <body>
   <main>
-    <img src="../assets/images/avatar-jessica.jpg" alt="jessica">
+    <div class="jessica">
+      <img src="assets/images/avatar-jessica.jpeg" alt="foto-jessica">
+    </div>
     <h1>Jessica Randall</h1>
     <h2>London, United Kingdom</h2>
     <p>"Front-end developer and avid reader."</p>
 
-    <div class="rede-social">
-      <p class="github"><a href="#">GitHub</a></p>
-      <p class="frontend"><a href="#">Frontend Mentor</a></p>
-      <p class="linkedin"><a href="#">LinkedIn</a></p>
-      <P class="twitter"><a href="#">Twitter</a></P>
-      <p class="instagram"><a href="#">Instagram</a></p>
-    </div>
-
+    <ul class="rede-social">
+      <li class="git"><a href="#">GitHub</a></li>
+      <li class="front"><a href="#">Frontend Mentor</a></li>
+      <li class="link"><a href="#">LinkedIn</a></li>
+      <li class="twit"><a href="#">Twitter</a></li>
+      <li class="inst"><a href="#">Instagram</a></li>
+    </ul>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Wytallo Marcelo</a>.
+      Coded by <a href="https://github.com/wytallo" target="_blank">Wytallo marcelo</a>.
+    </div>
   </main>
-  </div>
 </body>
 
 </html>

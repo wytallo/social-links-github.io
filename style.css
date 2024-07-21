@@ -1,125 +1,110 @@
-@charset "UTF_8";
-
-* {
-    margin: 0;
-}
+@charset "UTF-8";
 
 body {
     background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
-    margin: 0px;
+    margin: 0;
 }
 
 main {
-    background-color: hsl(0, 0%, 12%);
+    background-color:hsl(0, 0%, 12%);
+    width: 450px;
+    border-radius: 20px;
+}
+
+.jessica {
     text-align: center;
-    width: 350px;
-    height: 560px;
-    border-radius: 10px;
 }
 
 img {
+    width: 130px;
     border-radius: 50%;
-    width: 95px;
-    margin: 20px;
+    margin-top: 30px;
 }
 
 h1 {
-    color: hsl(0, 0%, 100%);
-    font-family: 'Inter', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    text-shadow: 2px, 2px, 0px rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    font-weight: 500;
 }
 
 h2 {
+    text-align: center;
     color: hsl(75, 94%, 57%);
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 14pt;
+    font-weight: 400;
 }
 
 p {
-    color: hsl(0, 0%, 100%);
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 10px;
-    text-shadow: 2px, 2px, 0px rgb(0, 0, 0);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.671);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.rede-social a {
-    color: hsl(0, 0%, 100%);
+ul a {
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.git {
+    background-color: hsl(0, 0%, 20%);
+    width: 335px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.front {
+    background-color: hsl(0, 0%, 20%);
+    width: 335px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.link {
+    background-color: hsl(0, 0%, 20%);
+    width: 335px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.twit {
+    background-color: hsl(0, 0%, 20%);
+    width: 335px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.inst {
+    background-color: hsl(0, 0%, 20%);
+    width: 335px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+a {
     text-decoration: none;
-    text-shadow: 2px, 2px, 0px rgb(0, 0, 0);
-}
-
-.github {
-    background-color: hsl(0, 0%, 20%);
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    display: inline-flex;
-    margin: 10px;
-    padding-inline: 120px;
-    border-radius: 10px;
-}
-
-.frontend {
-    background-color: hsl(0, 0%, 20%);
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    display: inline-flex;
-    margin: 10px;
-    padding-inline: 89px;
-    border-radius: 10px;
-}
-
-.linkedin {
-    background-color: hsl(0, 0%, 20%);
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    display: inline-flex;
-    margin: 10px;
-    padding-inline: 116px;
-    border-radius: 10px;
-}
-
-.twitter {
-    background-color: hsl(0, 0%, 20%);
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    display: inline-flex;
-    margin: 10px;
-    padding-inline: 120px;
-    border-radius: 10px;
-}
-
-.instagram {
-    background-color: hsl(0, 0%, 20%);
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    display: inline-flex;
-    margin: 10px;
-    padding-inline: 111px;
-    border-radius: 10px;
 }
 
 .attribution {
-    font-family: 'Inter', sans-serif;
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
-    padding: 20px;
+    color: rgba(255, 255, 255, 0.363);
 }
 
 .attribution a {
-    color: hsl(0, 0%, 100%);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
